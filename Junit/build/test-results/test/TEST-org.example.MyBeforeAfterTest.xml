@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.MyBeforeAfterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-03-03T03:29:31" hostname="MBP-DJXP34WYW3" time="0.008">
+  <properties/>
+  <testcase name="test1()" classname="org.example.MyBeforeAfterTest" time="0.006"/>
+  <testcase name="test2()" classname="org.example.MyBeforeAfterTest" time="0.001"/>
+  <testcase name="test3()" classname="org.example.MyBeforeAfterTest" time="0.0"/>
+  <system-out><![CDATA[beforeAll
+before
+test1
+after
+before
+test2
+after
+before
+test3
+after
+AfterAll
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
